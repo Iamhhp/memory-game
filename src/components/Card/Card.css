@@ -1,0 +1,29 @@
+.card {
+  width: 21%;
+  padding-top: 21%;
+
+  border: 2px solid wheat;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0px 0.8% 0.8% 0px;
+
+  background-image: url(./../../assets/imgs/cover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+
+  transition: all 0.7s;
+  transform: scale(-1);
+}
+
+.card-rotate {
+  transform: scale(1);
+}
+
+.fix-card {
+  transform: scaleX(-1);
+  background-color: gray;
+  background-blend-mode: multiply;
+}
