@@ -9,3 +9,6 @@
 ## Run
 
 `npm start`
+
+#Deployment
+https://iamhhp.github.io/memory-game/
